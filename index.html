@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Emre Yağlı</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Outfit', sans-serif; 
+            background-color: #2c2f33; 
+        }
+        
+        .glass { 
+            background: rgba(245, 245, 245, 0.96); 
+            backdrop-filter: blur(12px); 
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+        }
+        
+        /* 4. Latest Activity lines */
+        .activity-item { border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+        .activity-item:last-child { border-bottom: none; }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+
+    <div class="glass max-w-lg w-full rounded-3xl p-10 shadow-2xl text-center">
+        
+        <img src="profile.jpg" alt="Dr. Emre Yağlı" class="w-36 h-36 rounded-full mx-auto mb-6 border-4 border-white shadow-lg object-cover">
+        
+        <h1 class="text-3xl font-bold text-gray-900 mb-1">Dr. Emre Yağlı</h1>
+        <p class="text-gray-600 font-medium text-base mb-5">Associate Professor of Linguistics</p>
+        
+        <p class="text-gray-700 text-sm leading-relaxed mb-8 px-2">
+        
+        Hi! I am an associate professor in&nbsp;<a href="https://idb.hacettepe.edu.tr" target="_blank" rel="noreferrer noopener">the Department of English Linguistics</a>&nbsp;in the Faculty of Letters at&nbsp;<a href="https://www.hacettepe.edu.tr/" target="_blank" rel="noreferrer noopener">Hacettepe University</a>. As a sociolinguist, my primary interest is in the social meaning-making process visible through language variation. Related to this, I am interested in phonetics, phonology, language variation and change, and language ideology. I received my MA and PhD from the Department of English Linguistics at Hacettepe University, and I work as an associate professor in the same department.
+        
+        </p>
+
+        <!-- Outside links & buttons -->
+        <div class="flex flex-col gap-3 mb-10">
+            <a href="https://www.emreyagli.com" target="_blank" class="bg-[#2c2f33] text-white py-3.5 rounded-xl font-semibold hover:bg-black transition-all shadow-md">Visit my website for publications & CV</a>
+            <a href="mailto:yagli@hacettepe.edu.tr" class="border-2 border-gray-300 py-3 rounded-xl font-semibold text-gray-700 hover:bg-gray-100 transition-all">Contact</a>
+        </div>
+
+        <!-- Latest activity -->
+        <div class="text-left mb-10">
+            <h2 class="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-6 border-b border-gray-200 pb-2">Latest Activity</h2>
+            <div class="space-y-6">
+                <!-- Activity 1 -->
+                <div class="activity-item pb-4">
+                    <span class="text-[10px] font-bold text-blue-500 block mb-1">APRIL 26, 2026</span>
+                    <p class="text-sm text-gray-800 font-semibold leading-tight">Linguistics Workshop</p>
+                    <p class="text-xs text-gray-500 mt-1">Türk Eğitim Vakfı İnanç Türkeş Özel Lisesi, Gebze, Kocaeli, Türkiye</p>
+                </div>
+                <!-- Activity 2 -->
+                <div class="activity-item pb-4">
+                    <span class="text-[10px] font-bold text-blue-500 block mb-1">APRIL 24, 2026</span>
+                    <p class="text-sm text-gray-800 font-semibold leading-tight">Ünlü formantları bağlamında dil değişkenliği ve toplumdilbilim</p>
+					<p class="text-xs text-gray-600 mt-1">En. Language variation and sociolinguistics in the context of vowel formants</p>
+                    <p class="text-xs text-gray-500 mt-1">Çevrim İçi Dil Konferansları by Türk Dil Kurumu</p>
+                </div>
+                <!-- Activity 3 -->
+                <div class="activity-item">
+                    <span class="text-[10px] font-bold text-blue-500 block mb-1">APRIL 16, 2026</span>
+                    <p class="text-sm text-gray-800 font-semibold leading-tight">Yabancı sözcüklere önerilen Türkçe karşılıkların kabulünü belirleyen sesbilimsel ve biçimbilimsel etmenler üzerine bir inceleme</p>
+   					<p class="text-xs text-gray-600 mt-1">En. An investigation into the phonological and morphological factors determining the acceptance of proposed Turkish equivalents for foreign words</p>
+                    <p class="text-xs text-gray-500 mt-1">39th National Conference on Turkish Linguistics, Çukurova University, Adana, Türkiye</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scholarly icons (flex-wrap) -->
+        <div class="flex flex-wrap justify-center gap-4 pt-6 border-t border-gray-100">
+            <a href="https://scholar.google.com/citations?user=iFcBVuEAAAAJ" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/google-scholar.png" alt="Google Scholar" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://orcid.org/0000-0002-1044-9018" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/orcid.png" alt="ORCID" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://www.webofscience.com/wos/author/record/769174" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/clarivate.png" alt="Clarivate" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=24780139700" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/scopus.png" alt="Scopus" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://osf.io/e6cw9/" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/osf.png" alt="OSF" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://www.researchgate.net/profile/Emre-Yagli" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/research-gate.png" alt="ResearchGate" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://hacettepe.academia.edu/EmreYağlı" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/academia.png" alt="Academia" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://search.trdizin.gov.tr/en/yazar/detay/862175/emre-yagli" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/trdizin.png" alt="TRDizin" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://avesis.hacettepe.edu.tr/yagli" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/avesis.png" alt="AVESIS" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+            <a href="https://akademik.yok.gov.tr/AkademikArama/AkademisyenGorevOgrenimBilgileri?authorId=38AB6DD793AEBC07" target="_blank" class="hover:scale-110 transition-transform">
+                <img src="assets/icons/yok.png" alt="YÖK" class="w-10 h-10 grayscale hover:grayscale-0">
+            </a>
+        </div>
+        
+        
+        <!-- Template credits -->
+        <p class="text-[10px] text-gray-400 mt-8">Scholarly V-card | <a href="https://github.com/yagli/yagli.github.io" class="underline hover:text-gray-600">Use this template</a></p>
+    </div>
+
+</body>
+</html>
